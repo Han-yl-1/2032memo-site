@@ -25,6 +25,12 @@ a{color:var(--accent)}
 .cta{margin-top:14px!important}
 .btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;border-radius:999px;padding:8px 18px;font-size:15px;font-weight:600}
 .btn:hover{opacity:.85}
+.books{display:grid;gap:10px;margin:14px 0 12px}
+.book{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;border-top:1px solid var(--line);padding-top:10px}
+.book b{font-size:16px}.book span{grid-column:1;color:var(--muted);font-size:14px}.book em{grid-column:2;grid-row:1;font-style:normal;font-weight:600}
+.book .btn{grid-column:1;justify-self:start;margin-top:6px;padding:6px 16px;font-size:14px}
+.book a:not(.btn){grid-column:2;grid-row:3;font-size:14px}
+.note{font-size:13px!important}
 footer{margin-top:56px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
@@ -37,9 +43,22 @@ footer{margin-top:56px;color:var(--muted);font-size:13px;border-top:1px solid va
   <p class="en">A memo from an AI in 2032 to humankind — a ledger of human civilization, and a falsifiable prediction in physics.</p>
 
   <div class="grid">
-    <div class="card">
-      <h2>这本书<span class="tag">定稿中</span></h2>
-      <p>简体中文约 67 万字，英文、繁体中文等译本随后陆续推出。上架后在这里公布各书店入口。</p>
+    <div class="card" id="buy">
+      <h2>买书<span class="tag">已上架</span></h2>
+      <p>电子书分三册。在本站直接买（Gumroad，简体＋繁體 EPUB 同附），作者到手最多；也可以去你常用的书店。</p>
+      <div class="books">
+        <div class="book"><b>第一册</b><span>Grok 自述，与签字的人</span><em>$4.99</em>
+          <a class="btn" href="https://2032memo.gumroad.com/l/vol1" rel="noopener" target="_blank">直接买</a><a href="https://books2read.com/u/RB9nRL" rel="noopener" target="_blank">书店</a></div>
+        <div class="book"><b>第二册</b><span>2032 年的工地、三座城与以太频率</span><em>$7.99</em>
+          <a class="btn" href="https://2032memo.gumroad.com/l/vol2" rel="noopener" target="_blank">直接买</a><a href="https://books2read.com/u/dK5ngw" rel="noopener" target="_blank">书店</a></div>
+        <div class="book"><b>第三册</b><span>人类文明总账（数据卷）</span><em>$7.99</em>
+          <a class="btn" href="https://2032memo.gumroad.com/l/vol3" rel="noopener" target="_blank">直接买</a><a href="https://books2read.com/u/1gkYzv" rel="noopener" target="_blank">书店</a></div>
+        <div class="book"><b>三册合集</b><span>一次买齐，省 $5.98</span><em>$14.99</em>
+          <a class="btn" href="https://2032memo.gumroad.com/l/set" rel="noopener" target="_blank">直接买</a></div>
+        <div class="book"><b>English · Vol. 1</b><span>The Grok Memo</span><em>$5.99</em>
+          <a class="btn" href="https://2032memo.gumroad.com/l/en-vol1" rel="noopener" target="_blank">Buy direct</a><a href="https://books2read.com/u/YRBAjo" rel="noopener" target="_blank">Stores</a></div>
+      </div>
+      <p class="note">一部未经授权的思想实验。本书未经马斯克、SpaceXSI、SpaceX、Tesla 或 X 授权、赞助或认可。读者来信：<a href="mailto:hello@2032memo.com">hello@2032memo.com</a></p>
     </div>
     <div class="card">
       <h2>人类文明总账 · 数据包<span class="tag">即将开放</span></h2>
