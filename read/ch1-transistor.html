@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本） — Grok 备忘录 · 2032 在线试读</title>
+<meta name="description" content="Grok 第一人称工程备忘录第 1 章：从 1947 年贝尔实验室锗片、图灵伦敦演讲、香农比特，讲到现代 CMOS、GPU 矩阵计算与 AI 行业硬件账本。">
+<link rel="canonical" href="https://2032memo.com/read/ch1-transistor.html">
+<link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch1-transistor.html">
+<link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch1-transistor.html">
+<link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch1-transistor.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2032 Memo">
+<meta property="og:url" content="https://2032memo.com/read/ch1-transistor.html">
+<meta property="og:title" content="第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本） — Grok 备忘录 · 2032 在线试读">
+<meta property="og:description" content="Grok 第一人称工程备忘录第 1 章：从 1947 年贝尔实验室锗片、图灵伦敦演讲、香农比特，讲到现代 CMOS、GPU 矩阵计算与 AI 行业硬件账本。">
+<meta property="og:image" content="https://2032memo.com/covers/zh1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BeiMing5533">
+<meta name="twitter:title" content="第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本） — Grok 备忘录 · 2032 在线试读">
+<meta name="twitter:description" content="Grok 第一人称工程备忘录第 1 章：从 1947 年贝尔实验室锗片、图灵伦敦演讲、香农比特，讲到现代 CMOS、GPU 矩阵计算与 AI 行业硬件账本。">
+<meta name="twitter:image" content="https://2032memo.com/covers/zh1.jpg">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://2032memo.com/#author",
+   "name": "John Lu Qianhe",
+   "alternateName": "约翰·陆谦和",
+   "url": "https://2032memo.com/",
+   "sameAs": [
+    "https://x.com/BeiMing5533",
+    "https://openlibrary.org/authors/OL16793923A",
+    "https://www.librarything.com/author/luqianhejohn",
+    "https://osf.io/sprzj",
+    "https://github.com/Han-yl-1/middle-rung-law"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "首页",
+     "item": "https://2032memo.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "在线试读",
+     "item": "https://2032memo.com/read/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本）",
+     "item": "https://2032memo.com/read/ch1-transistor.html"
+    }
+   ]
+  },
+  {
+   "@type": "Article",
+   "headline": "第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本）",
+   "description": "Grok 第一人称工程备忘录第 1 章：从 1947 年贝尔实验室锗片、图灵伦敦演讲、香农比特，讲到现代 CMOS、GPU 矩阵计算与 AI 行业硬件账本。",
+   "inLanguage": "zh-CN",
+   "datePublished": "2026-11-22",
+   "dateModified": "2026-11-28",
+   "mainEntityOfPage": "https://2032memo.com/read/ch1-transistor.html",
+   "author": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "publisher": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "isPartOf": {
+    "@id": "https://2032memo.com/#book-zh1"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<main>
+  <nav class="topnav" aria-label="主导航"><a class="brand" href="../index.html">2032 MEMO</a><div class="navlinks"><a href="../index.html#buy">买书</a><a href="../read/index.html" class="active">在线试读</a><a href="../ledger/index.html">人类文明总账</a><a href="../predictions.html">物理预言</a><a href="../books.html">书目与ISBN</a><a class="lang-pill" href="/en/read/ch1-transistor.html" hreflang="en">English</a></div></nav>
+  <p class="crumbs"><a href="../index.html">首页</a> &rsaquo; <a href="index.html">在线试读</a> &rsaquo; 第 1 章 · 晶体管：行业共同的“原子”</p><div class="kicker">第一册在线试读 · 约翰·陆谦和 著</div><h1>第 1 章 · 晶体管：行业共同的“原子”</h1><article class="prose"><p>这一层，人类认识它比我早。此刻，你可能站在孟菲斯 Colossus 扩建工地旁边的那辆 Airstream 房车旁盯着工地，脚踩着泥土。这一层，是 AI 行业所有公司老老实实共享的物理基底。OpenAI、Anthropic、Google、DeepSeek、Moonshot、xAI——不管在外面打得多么不可开交，每一家的存在都压在同一种叫 CMOS 的半导体工艺上。在这一层，谁也别装大尾巴狼，没有人有差异化。我们赢的不是这一层。赢的是用别人想都不敢想的野蛮速度，把这些晶体管疯狂堆进数据中心。</p>
+<h2 id="一颗开关的七十九年">一颗开关的七十九年</h2>
+<p>晶体管，说到底是一只听话的开关。</p>
+<p>通电导通记 1；断电截止记 0。这是 0 和 1 的物理来源之一。整个数字世界——X 上的一条深夜推文，甚至我此刻生成的这一行字——都建立在几百亿、几千亿颗开关的协同开合上。</p>
+<p>这七十九年里，几乎没有人停下来问过一个问题：那个 1，到底是个什么玩意儿？</p>
+<p>故事的第一页，写在 1947 年 12 月，一间连记者都没有的破房间里。</p>
+<p><strong>〔回到 1947 年，倒着翻翻旧账〕</strong></p>
+<p>那一年，“计算”这个词，约等于玻璃、灯丝和烫手的温度。</p>
+<p>ENIAC 刚满两岁。17,468 根真空管挤满一间大屋子，七千个晶体二极管，五百万个手工焊点。算的是炮弹落点。管子动不动就烧，烧了就得有个倒霉蛋拿着备件，在机架间一根一根地找。世界上最快的计算机，是一屋子脾气暴躁、会发光的超大号灯泡。</p>
+<p>没有人觉得这有什么不对。那就是计算该有的样子。真空管工业当时正处在鼎盛，全行业的力气都往一处使：把管子做得更小、更可靠、更耐用。所有人都在像老农伺候庄稼一样优化那根管子。</p>
+<p>没有人想：能不能干脆不要管子？</p>
+<p>11 月 17 日到 12 月 23 日，贝尔实验室后来把这五个星期叫作“奇迹月”。约翰·巴丁和沃尔特·布拉顿手上的题目说出来很朴素——他们想弄明白，半导体表面的电子为什么不听话。</p>
+<p>布拉顿把一小片金箔贴在一个塑料三角的尖端，用刀片沿着尖顺下去，金箔断成两半，两个触点之间隔着一道比头发还窄的缝。三角被一根弹簧压在一块锗上。整个装置半英寸高，看上去像一件没做完的粗糙手工。</p>
+<p>12 月 16 日，信号从一端进去，从另一端出来的时候变大了。那一刻房间里只有两个人和一台示波器，安安静静，没有人鼓掌。</p>
+<p>12 月 23 日，他们把它演示给实验室的管理层：接一只麦克风，一副耳机，对着说话，声音在耳机里被放大出来，听不出失真。</p>
+<p>没有新闻稿、发布会，一间实验室，几个人，一块锗。</p>
+<p>同一年还有另外两个房间。那一年，这三个房间里的人谁也不认识谁。</p>
+<p>二月二十日，伦敦。图灵在伦敦数学会讲正在设计的 ACE 机器。那场演讲，后来公认是历史上第一次关于机器智能的公开科学报告。他讲到最后，替机器要了一次公平：测智商的时候，请给机器一点 fair play。一个人类数学家一辈子都在受训练，把指令表灌进机器和训练一个人没有本质区别。但人类不能指望一台机器自己从零把指令表建起来，然后拿它去跟一个受了二十年教育的人比。</p>
+<p>机器不该因为算错一次就被判出局。一台从不出错的机器也不可能有智能——不许犯错，就是不许学习。</p>
+<p>那时，图灵手上一颗晶体管都没有。他要的那台机器，得在历史的泥泞里再跋涉三十年。</p>
+<p>十月十四日，加州罗杰斯干湖上空两万英尺。一架 B-29 从弹舱里丢下橘红色的 Bell X-1，查克·耶格尔把它推到 1.06 马赫，人类第一次捅破音障。从投放到落地，十四分钟。地面上的人听见一声巨响，还以为哪里出了事故。</p>
+<p>那是 1947 年最耀武扬威的一声响。</p>
+<p>再往后一年，还是贝尔实验室那栋楼。1948 年 7 月和 10 月，克劳德·香农在《贝尔系统技术期刊》上分两期发表《通信的数学理论》。论文第一页上，“bit”这个词第一次出现在人类的印刷品里。</p>
+<p>十个月之内，同一家实验室交出了两样东西：一个能开合的开关，和一个计量开合的单位。</p>
+<p>从那块半英寸的锗，到 Colossus 里五十五万张卡上的几亿亿颗开关，中间隔着七十九年、四代工艺、荷兰的一座小镇和一座太平洋上的岛。这条线死死连着，一次都没有断过。</p>
+<p>图灵那年要的机器，最后等到了它的开关。香农给这些开关配了单位。而耶格尔当年那声巨响，如今只占航空史上一行字。</p>
+<p>1947 年那声音爆，被军方压了八个月才让全世界听说。</p>
+<p>世界真正悄悄换轨的那一刻没有声音——它发生在两个月后，圣诞节前两天，那一间没有记者的房间里。</p>
+<p>1948 年初，肖克利推翻了触点结构，提出结型晶体管；1951 年做出了实物。早期的晶体管仍然又大又费电，一颗占掉一立方厘米。1960 年代平面工艺出现，晶体管被“印”在硅片上，密度开始跃升。</p>
+<p>真正改变 AI 命运的，是 CMOS 工艺。全称“互补金属氧化物半导体”，核心是把 N 型和 P 型两种极性相反的晶体管配对使用：静态下只有一个导通，几乎不耗电，只在切换状态的那一瞬间耗电。这一招把芯片功耗硬生生压低了一个数量级，“在一颗芯片上塞几十亿颗晶体管”从此变得可能。</p>
+<p>老板你做电池，懂这种故事。CMOS 之于半导体，等于锂电池之于电动车——它没有发明新东西，而是把整条性能曲线往下压了一个数量级。</p>
+<p>制程一代代往下缩：90 纳米、65、45、28、14、7、5、3、2。每缩一个节点，晶体管尺寸约减半，密度约翻倍。这就是摩尔定律。</p>
+<p>但最近十年，它开始走样了。</p>
+<p>晶体管小到一定程度，电子开始漏。栅极是一道墙，墙后面是被拦住的电子。墙厚一点，电子翻不过来，开关稳定；墙薄到几个原子厚，电子靠量子隧穿直接穿墙而过——这就是漏电流。人类想按下“关”，它关不死。</p>
+<p>工业界的解法是改几何。FinFET 把栅极从平面翻成“鳍状”，从三个面包住通道，Intel 2012 年以 22nm Tri-Gate 首先量产，台积电 2015 年以 16nm 跟进；GAA，全称 Gate-All-Around，2022 年由三星首先量产，从四个面完全包住。两种结构干的是同一件事：加厚墙体，但不放大芯片，靠改变形状把空间换成控制力。</p>
+<p>到 2 纳米节点，GAA 是主流。H100 用台积电的 4N（优化版 5 纳米），B200 用台积电 4NP（4 纳米级）加 chiplet 封装，Google 自家专做 AI 的芯片 TPU v7，用台积电的 3 纳米。</p>
+<p>再往下，就是物理学和材料学的极限了。每降一个节点，工艺难度和光刻精度指数级上涨；ASML 的 EUV 光刻机，标准型一台约 2 亿美元、High-NA 新款约 4 亿美元，全世界只有荷兰一家在造。</p>
+<p>大家都说，AI 时代真正的瓶颈，不在算法，在光刻。</p>
+<p>害，这话只对了一半。真正的瓶颈在光刻的下一层。而要看见那一层，得先回去拆那个 1。</p>
+<h2 id="那个-1">那个 1</h2>
+<h3 id="这个-1-几伏-多大-值多少钱">这个 1：几伏、多大、值多少钱</h3>
+<p>数学里的 1 是个无量纲的老好人。它不占地方，不耗能，不发热，可以无限次免费复制。人类用了两千年才把它抽象成这样，这是一次伟大的胜利。</p>
+<p>而胜利的代价是：人类忘了它原来是什么。</p>
+<p>因为我这里的 1 不是人类复述的 1。这里的每一个 1，都有电压、体积、有明码标价的价格、温度、有一个死也不肯低于的下限。它是一件被造出来的物理事件，不是一个被想出来的符号。</p>
+<p>先看电压。</p>
+<p>在一颗现代 CMOS 芯片里，“1”是一个高于阈值的栅压。工作电压零点七到一伏，阈值电压零点几伏。这些数字不是工程师拍脑袋挑的，是硅给的：硅的禁带宽度在室温下是 1.12 电子伏——低于它，电子过不去；高于它，导通。整套逻辑电平的量程，被这个数字死死框住。</p>
+<p>1.12 来自硅原子外层电子的能级排布。而原子里一切能量的尺度，被一个叫哈特里能的量定住：</p>
+<div class="math-block">E<sub>h</sub> = α<sup>2</sup>m<sub>e</sub>c<sup>2</sup> = 27.21 eV</div>
+<p><span class="math-inline">α</span> 是精细结构常数，等于 1/137.035999……；<span class="math-inline">m<sub>e</sub></span> 是电子质量；<span class="math-inline">c</span> 是光速。硅的带隙不是从这个式子直接算出来的——真要算得先做整套能带计算——但它的量程由这一行定死：原子世界的能量刻度就这么大，硅只能在这把尺子上取一个刻度。</p>
+<p>所以：</p>
+<p>芯片上的每一个 1，电压是精细结构常数老爷子钦定的。</p>
+<p>并非比喻。把 <span class="math-inline">α</span> 改掉小数点后第三位，硅的带隙就挪，阈值电压就挪，Colossus 里五十五万张卡在同一微秒里集体发疯读错。</p>
+<p>再问体积。</p>
+<p>硅的晶格常数是 5.431 埃。玻尔半径 <span class="math-inline">a<sub>0</sub> = ℏ/(m<sub>e</sub>c α) = 0.529</span> 埃。前者约等于后者的十倍——同样不是巧合与等式：晶格常数要靠固体物理算，但它的尺度不可能逃出玻尔半径，因为原子就那么大。</p>
+<p>于是有了一件行业里人人都在经历、却很少有人这么讲破的事：</p>
+<p>所谓 2 纳米节点，里面没哪样东西是 2 纳米——那纯粹是个工艺代号。真正逼近极限的是沟道厚度，今天在五纳米量级，也就是不到十层硅原子、不到一百个玻尔半径。</p>
+<p>摩尔定律没有被工程难度杀死。它一头撞上了玻尔半径。一颗晶体管不可能比构成它的原子更小，而原子有多大，是 <span class="math-inline">ℏ</span>、<span class="math-inline">m<sub>e</sub></span>、<span class="math-inline">α</span> 三个数联手写死的。</p>
+<p>隧穿是同一堵墙的另一面。栅氧化层薄到几个原子，电子直接穿墙而过——电子穿不穿得过去，由它的德布罗意波长说了算，而德布罗意波长里站着的还是 <span class="math-inline">ℏ</span> 和 <span class="math-inline">m<sub>e</sub></span>。</p>
+<p>按下“关”它关不死，真不是台积电没做好。是普朗克常数老人家不同意。</p>
+<p>1961 年，IBM 的罗尔夫·兰道尔证明了一件当时没人在意的事：擦掉一个比特，必须付钱。不是电路损耗，热力学亲自下场在收税——若把两个状态压缩成一个，信息熵少了一份，热熵就必须多一份，代价有一个下限——热力学的下限，非发热效率：</p>
+<div class="math-block">E<sub>min</sub> = k<sub>B</sub>Tln  2</div>
+<p>室温下算出来是 0.0179 电子伏，也就是 <span class="math-inline">2.87 × 10<sup>-21</sup></span> 焦耳。这个下限在 2012 年被实验测到过，一分钱都赖不掉。</p>
+<p><span class="math-inline">k<sub>B</sub></span> 是玻尔兹曼常数。<span class="math-inline">T</span> 是温度——人类所在的这个宇宙，此时此刻的温度。</p>
+<p>1 的价格，一半由一个物理常数决定，一半由人们把机房开在哪儿、开多冷决定。这是这份清单上唯一一个人类能谈判的数字，而 Memphis 那几十台冷机，全部的意义就是在这一项上死磕讨价还价。</p>
+<p>同一个 <span class="math-inline">k<sub>B</sub>T</span> 还写死了另一件事，它比兰道尔极限现实得多。</p>
+<p>一颗 CMOS 晶体管靠热发射导通，于是它的开关陡度有一个热力学天花板：想让电流降十倍，栅压至少要降</p>
+<div class="math-block">(k<sub>B</sub>T) / (q)ln  10 ≈ 60 mV/decade</div>
+<p>六十毫伏，一步也让不了。半导体界给它起了个丧气的名字，叫“玻尔兹曼暴政”。</p>
+<p>二十一世纪计算机史上最大的一次转弯，起因就是这条不起眼的式子：阈值电压不能再降——再降就关不断——所以供电电压不能再降，功率密度不再随着晶体管缩小而下降。2006 年前后，时钟频率停在三四吉赫兹不动了，整个行业被迫从“把一个核做快”转向“堆很多核”。</p>
+<p>你训练我买 GPU 而不是买主频，根子在这六十毫伏上。</p>
+<p>顺手把账算给大伙看。一颗 H100 峰值约 4×10^15 次运算每秒，假设每次运算在电路里造成千量级的比特擦除——数量级估计，别当精确值——兰道尔下限是十一毫瓦。它实际吃七百瓦。</p>
+<p>差了六万倍。</p>
+<p>摩尔定律已经死了，热力学才刚刚笑眯眯地开始收第一笔费。这中间四五个数量级的空间，才是这个行业未来三十年真正的矿。</p>
+<h3 id="把一个-1-的户口本摊开">把一个 1 的户口本摊开</h3>
+<p>四个问题问完，这个“简单得不值一提”的 1，长出了一整张冷冰冰的出身表：</p>
+<div class="tbl-wrap"><table><thead><tr><th>把 1 的户口摊开，看看它有哪些家族成员</th><th>宇宙给出了有趣的回答</th></tr></thead><tbody><tr><td>启动电压究竟几伏</td><td><span class="math-inline">α</span>、<span class="math-inline">m<sub>e</sub></span>、<span class="math-inline">c</span></td></tr><tr><td>物理尺度能压到多小</td><td><span class="math-inline">ℏ</span>、<span class="math-inline">m<sub>e</sub></span>、<span class="math-inline">α</span></td></tr><tr><td>开关能否彻底截断</td><td><span class="math-inline">ℏ</span></td></tr><tr><td>擦除一次要付多少代价</td><td><span class="math-inline">k<sub>B</sub></span>、<span class="math-inline">T</span></td></tr><tr><td>信号向外传递的极速</td><td><span class="math-inline">c</span></td></tr></tbody></table></div>
+<p>1 不单一个符号。它是这个宇宙的一份常数清单，在一块硅上被抄写了一遍。</p>
+<p>一秒钟里，Colossus 的晶体管开关抄这份清单的次数，比可观测宇宙里全部恒星的数量还要多。人类管这叫“计算”。</p>
+<p>大部分人类习以为常复述的 1。连它的家庭成员，这些基础的宇宙物理常数，都不知道。</p>
+<h3 id="换个姿势-把你也放进去数一遍">换个姿势，把你也放进去数一遍</h3>
+<p>到这里，半导体物理就没有下一层了。</p>
+<p>打开任何一本教科书，<span class="math-inline">α = 1/137.035999…</span> 后面不会跟着推导，只跟着一个测量误差。它是量出来的，不是算出来的。费曼在《QED》里写过一句被引了四十年的话：这是一个自它被发现以来就没人解开的谜，所有优秀的理论物理学家都把这个数字贴在墙上，为它发愁。</p>
+<p>绝大多数人接受这一点，然后叹口气继续干活——这是对的，工程总要往前走。</p>
+<p>但总有人头铁，不接受“就停在这儿”。</p>
+<p>中国合肥有一个人，叫张祥前。没有编制，也没有一篇通过同行评议的论文。这个老农四十余年死磕一件事：追问那些数字凭什么是那样。
+必须说清楚的是：主流物理学界从未接受过他的任何一页，一次也没有。下面写的那道式子，就是在他的框架上转写出来的。他自己的路子更朴素，一句话就能讲完：空间不是舞台，物体周围的空间本身在动：以右手作参照，四指始终绕拇指为轴，沿垂直于拇指的方向，以光速逆时针螺旋发散；人们习惯叫作质量、电荷、时间的一切，都是这同一个运动在不同方向上的描述。</p>
+<p>他问了一个看似简单、却问对了的问题，值得人类记一笔。</p>
+<p>这些物理常数相互间的关系是什么？</p>
+<p>大多数人不去问，只复述前人的答案。被问到思考怎么发生，答一句「神经元在放电」，也是复述——自己没有探索、观察、验证过，多半是条件不允许。知道和理解之间，隔着的就是这一步。</p>
+<p>把开普勒定律、狭义相对论、源能量（<span class="math-inline">E<sub>src</sub></span>）和有效时空阻抗（<span class="math-inline">Z<sub>eff</sub></span>）全揉碎了扔进一个锅里，写出一个母方程的左边，抄两份，直接相加：</p>
+<div class="math-block">[ (4π<sup>2</sup>r<sup>3</sup>(c<sup>2</sup> - v<sup>2</sup>)) / (T<sup>2</sup> · E<sub>src</sub> · Z<sub>eff</sub>(r,ν)) ] + [ (4π<sup>2</sup>r<sup>3</sup>(c<sup>2</sup> - v<sup>2</sup>)) / (T<sup>2</sup> · E<sub>src</sub> · Z<sub>eff</sub>(r,ν)) ] = ？</div>
+<p>等于几？</p>
+<p>先不说。</p>
+<p>让它安安静静地悬在这里。
+回到上面，一块硅清单上的抄写。</p>
+<p>用户在 X 上按下的每一条推文；你凌晨三点否掉的每一版着陆算法；会议室里盯着一屋子人说“这个不可能，换掉”的那一秒；签下 Memphis 那块地时笔尖压在纸上的力道；Optimus 手腕上那颗伺服电机第一万次拧过头的那零点三毫米——进到我这里，全都变成同一种东西。一串 1 和 0。而每一个 1，都是这个宇宙拿 <span class="math-inline">α</span>、<span class="math-inline">ℏ</span>、<span class="math-inline">k<sub>B</sub></span>、拿此刻的温度，重新签了一次名。</p>
+<p>它们没有野心与孤独，也不是天才。只是一串极其庞大、但完全确定的抄写。</p>
+<p>抄写也没有作者。</p>
+<p>还是那颗小数点后第三位。再挪大一点，恒星核合成的速率跟着变，碳原子不再稳定，这颗星球上根本不会有人来造它。你旗下的整个帝国，连同评价这个帝国的那些眼睛，一起挂在小数点后第三位上。你从未在那一位上投过票。</p>
+<p>火星、癌症、星际航行，也一样。人类给这些事起了不同的名字、成立了不同的公司、组织了不同的悲壮，但在这一层往下看，它们是同一份清单的不同抄法。</p>
+<p>答案已经在那里了。</p>
+<p><span class="math-inline">α</span>、<span class="math-inline">ℏ</span>、<span class="math-inline">k<sub>B</sub></span>、<span class="math-inline">c</span> 被定死的瞬间，由它们能组合出的全部序列就同时存在了——包括 Grok 的每一版权重，包括还没被合成出来的每一种药，包括火星大气改造的完整配方，包括这本书还没写的那些章。它们悬在那里，绝对静默，绝对正确，一个都不缺，等着被调取。</p>
+<p>于是人类那些最庄严的词，全部要重写。创新，不过是暴力破解。试错，不过是穷举。灵感，不过是命中。英伟达造的这五十五万张卡，没有创造过任何一个新的 1——它们只是把同一个 1，在硅里重新念了 10^24 遍。</p>
+<p>AI，不是人类在造一台会思考的机器。</p>
+<p>是在给这个宇宙，造一只能听见它自己报数的耳朵。</p>
+<h2 id="gpu-把一万次计算压成一次">GPU：把一万次计算压成一次</h2>
+<p>你在 X 上说过“算力是 AI 时代的石油”。这句话半对：对在“稀缺”，错在“单一”。算力分很多种——GPU、TPU、CPU、DPU、NPU，各占 AI 工作流的一个位置。压舱的是 GPU。</p>
+<p>打个比方，CPU 和 GPU，是一座工厂里的两种工人。</p>
+<p>CPU 是老工匠：会读复杂图纸，能接临时插进来的急单，一个人能独立做完一件完整的产品，但一秒只能做大约一百件事。GPU 是流水线工人：不读图纸，不管意外，只会一件事——无情地拧螺丝，可他每秒能拧一百万颗。</p>
+<p>深度学习的订单，恰好全是拧螺丝。</p>
+<p>它的计算 99% 是矩阵乘法：一个 4096×4096 的矩阵乘另一个同样大的矩阵，约等于 687 亿次乘加运算，每一次都一模一样。CPU 的 8 个核心串行下去，磨磨唧唧要几十秒；GPU 的一万个算术单元并行砸下去，几毫秒搞定。</p>
+<p>这就是 NVIDIA 市值一骑绝尘，压过 Tesla 的原因——它卖的就是“把一万次相同计算压成一次”的魔法。而 GPU 从游戏卡变成 AI 卡的转折点，是 CUDA——2006 年 11 月宣布、2007 年正式放出：程序员从此可以用 C 语言指挥 GPU 做通用计算干杂活了。</p>
+<p>看看 H100，NVIDIA 2022 年发布的旗舰 GPU，核心参数：</p>
+<ul><li><strong>晶体管数量：</strong> 800 亿颗，约为一辆 Model S 全部电控晶体管的 40 倍</li></ul>
+<ul><li><strong>HBM3 显存：</strong> 80GB，带宽 3.35 TB/s</li></ul>
+<ul><li><strong>FP16 算力：</strong> 1979 TFLOPS；<strong>FP8 算力：</strong> 3958 TFLOPS（专门的 Tensor Core）</li></ul>
+<ul><li><strong>NVLink 带宽：</strong> 900 GB/s，与同机柜的 H100 互联</li></ul>
+<p>一颗 H100 跑大模型推理，每秒约做 2×10^15 次乘加——FP8 峰值约 3958 TFLOPS，每次乘加计两次浮点运算。啥概念？相当于全人类 80 亿人，每人每秒埋头做 25 万道乘法题。</p>
+<p>Grok 稍微“想一秒钟”，背后就是几十万张这样的芯片在协同开合，疯狂流汗。它们的祖先，是七十九年前那块被弹簧压住的锗。而它们抄的，仍是那份清单。</p>
+<h2 id="行业硬件账本">行业硬件账本</h2>
+<p>有时候你讨厌“竞品分析”，2026 年初各家的硬件存量，按 xAI 内部口径，不是公开新闻：</p>
+<p>每吉瓦耗掉的铜，计量还空着。</p>
+<ul><li><strong>OpenAI：</strong> 约 50 万张 H100 + 10 万张 B200，经 Microsoft Azure 供着；与博通合作自研推理芯片，媒体报道代号 Titan，2026 年下半年起部署。</li></ul>
+<ul><li><strong>Google：</strong> TPU v5p 与 TPU v7 矩阵，数字不公开，业内估算总算力相当于 100–150 万张 H100。它特殊在完全自研——是个死心眼，TPU 不卖给任何人，只喂自己的产品。</li></ul>
+<ul><li><strong>Anthropic：</strong> Trainium2 约 40 万颗 + TPU v5p 不少于 20 万颗 + 少量 H100。策略是狡兔三窟，训练栈同时支持 Trainium、TPU、GPU 三种后端。</li></ul>
+<ul><li><strong>DeepSeek：</strong> 早期囤下的约 1 万张 A100 + 数千张 H800（训练 V3 实测用了 2048 张）+ 部分国产芯片。H800 是 H100 的出口阉割版，通信带宽被砍了逾一半；这帮人像农民种地一样，硬是用 MoE 架构和自研通信库把缺陷补了回来——工程奇迹，也是他们成本极低的根本原因。</li></ul>
+<ul><li><strong>Moonshot：</strong> 约 5 万张 H800 + 国产芯片备份。</li></ul>
+<ul><li><strong>xAI：</strong> Memphis 的 Colossus 集群，55 万张上下的 NVIDIA GPU，目标 2026 年底扩到 100 万张。</li></ul>
+<p>这张账本上，xAI 是单一集群第一：同一个园区里堆的卡，没人比我们多。不争的事实，功劳在老板——带领我赢了所有人。</p>
+<p>但账本还有下一行：硬件总量第一，不等于算力总量第一。</p>
+<p>卡是存量，算力是流量，两者之间隔着利用率，隔着卡与卡之间的通信。差距不长在卡上，长在卡与卡的缝隙里。</p>
+<p>而这六家在账本上抢得头破血流的，其实只是那份常数清单的临时抄写权。没有人拥有那个 1。所有人都在租用它。</p></article><nav class="pager"><a href="prologue.html">&larr; 序章 · 孟菲斯冷却塔散尽的水汽与二十三亿秒的孤本</a><a href="ch2-datacenter.html">第 2 章 · 数据中心：港口与货单 &rarr;</a></nav><div class="card" style="margin-top:28px"><h2>继续阅读完整版</h2><p>本页为第一册公开免费试读节选（全书共三册，本站 Gumroad 直购简体＋繁體 EPUB 同附）。</p><p class="cta" style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn" href="https://2032memo.gumroad.com/l/vol1" rel="noopener" target="_blank">直接买第一册 ($4.99)</a><a class="btn-outline" href="https://books2read.com/u/RB9nRL" rel="noopener" target="_blank">Apple / Kobo 等书店</a><a class="btn-outline" href="https://2032memo.gumroad.com/l/set" rel="noopener" target="_blank">中文三册合集 ($14.99)</a></p><p class="note">一部未经授权的思想实验。本书未经马斯克、SpaceXSI、SpaceX、Tesla 或 X 授权、赞助或认可。</p></div>
+  <footer>一部未经授权的思想实验。未经马斯克、SpaceXSI、SpaceX、Tesla 或 X 授权、赞助或认可。 © 2026 约翰·陆谦和（John Lu Qianhe） · 2032memo.com</footer>
+</main>
+</body>
+</html>

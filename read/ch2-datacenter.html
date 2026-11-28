@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账） — Grok 备忘录 · 2032 在线试读</title>
+<meta name="description" content="Grok 工程备忘录第 2 章：孟菲斯空厂房通电、液冷散热、让 55 万张卡像一张卡工作的 Spine-Leaf 网络拓扑，以及一座 1.5GW 数据中心到底要烧多少电。">
+<link rel="canonical" href="https://2032memo.com/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch2-datacenter.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2032 Memo">
+<meta property="og:url" content="https://2032memo.com/read/ch2-datacenter.html">
+<meta property="og:title" content="第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账） — Grok 备忘录 · 2032 在线试读">
+<meta property="og:description" content="Grok 工程备忘录第 2 章：孟菲斯空厂房通电、液冷散热、让 55 万张卡像一张卡工作的 Spine-Leaf 网络拓扑，以及一座 1.5GW 数据中心到底要烧多少电。">
+<meta property="og:image" content="https://2032memo.com/covers/zh1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BeiMing5533">
+<meta name="twitter:title" content="第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账） — Grok 备忘录 · 2032 在线试读">
+<meta name="twitter:description" content="Grok 工程备忘录第 2 章：孟菲斯空厂房通电、液冷散热、让 55 万张卡像一张卡工作的 Spine-Leaf 网络拓扑，以及一座 1.5GW 数据中心到底要烧多少电。">
+<meta name="twitter:image" content="https://2032memo.com/covers/zh1.jpg">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://2032memo.com/#author",
+   "name": "John Lu Qianhe",
+   "alternateName": "约翰·陆谦和",
+   "url": "https://2032memo.com/",
+   "sameAs": [
+    "https://x.com/BeiMing5533",
+    "https://openlibrary.org/authors/OL16793923A",
+    "https://www.librarything.com/author/luqianhejohn",
+    "https://osf.io/sprzj",
+    "https://github.com/Han-yl-1/middle-rung-law"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "首页",
+     "item": "https://2032memo.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "在线试读",
+     "item": "https://2032memo.com/read/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账）",
+     "item": "https://2032memo.com/read/ch2-datacenter.html"
+    }
+   ]
+  },
+  {
+   "@type": "Article",
+   "headline": "第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账）",
+   "description": "Grok 工程备忘录第 2 章：孟菲斯空厂房通电、液冷散热、让 55 万张卡像一张卡工作的 Spine-Leaf 网络拓扑，以及一座 1.5GW 数据中心到底要烧多少电。",
+   "inLanguage": "zh-CN",
+   "datePublished": "2026-11-22",
+   "dateModified": "2026-11-28",
+   "mainEntityOfPage": "https://2032memo.com/read/ch2-datacenter.html",
+   "author": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "publisher": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "isPartOf": {
+    "@id": "https://2032memo.com/#book-zh1"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<main>
+  <nav class="topnav" aria-label="主导航"><a class="brand" href="../index.html">2032 MEMO</a><div class="navlinks"><a href="../index.html#buy">买书</a><a href="../read/index.html" class="active">在线试读</a><a href="../ledger/index.html">人类文明总账</a><a href="../predictions.html">物理预言</a><a href="../books.html">书目与ISBN</a><a class="lang-pill" href="/en/read/ch2-datacenter.html" hreflang="en">English</a></div></nav>
+  <p class="crumbs"><a href="../index.html">首页</a> &rsaquo; <a href="index.html">在线试读</a> &rsaquo; 第 2 章 · 数据中心：港口与货单</p><div class="kicker">第一册在线试读 · 约翰·陆谦和 著</div><h1>第 2 章 · 数据中心：港口与货单</h1><article class="prose"><p>孟菲斯 Colossus 施工日志，从现场记录里重排。</p>
+<p>工程概况：孟菲斯一座停产四年的伊莱克斯家电厂，用 122 天改成 200MW 的算力集群，又在 11 个月内扩到 22 万张 GPU，连上后来的二号厂，整个集群到 55 万张。OpenAI、Google、Anthropic 没做到。业内私下管这件事叫“GIGA 现象”——你把 Tesla 超级工厂的速度，原样打进了数据中心。连 Sam 都在 OpenAI 内部会议上承认过这一点。</p>
+<h2 id="空厂房-通电">空厂房、通电</h2>
+<p><strong>2024 年中｜空厂房</strong></p>
+<p>七十多万平方英尺的水泥地，积着灰，没有一根带电的线。</p>
+<p>马斯克带领团队做了一件工程史上没人做过的事，新闻媒体都这样报道。但他们忽视了，那不是一支常规团队，那是从整个商业帝国里强行抽调、拼合出来的“多国部队”：<strong>xAI 的 Grok 核心研发团队</strong>盯死算力需求与模型架构；<strong>X（推特）的基础设施老兵们</strong>被拽过来搭网络底座；<strong>SpaceX 的工程与供应链团队</strong>把火箭发射台上抢工期、死磕物理极限的做派全盘移植；<strong>Tesla 的能源与热管理工程师</strong>把造超级工厂和车用温控的经验直接砸向冷却系统。四支原本互不搭界的队伍，被你捏在一起。</p>
+<p>状态：厂房有了，人到齐了，电没有。</p>
+<p><strong>2024 年中，一周后｜开工</strong></p>
+<p>预制板房在厂房外排成行，吊车的长臂在扬尘里转，上千名穿荧光背心的工程师和焊工在聚光灯下昼夜轮班。焊花落在水泥地上，跳两下就灭。</p>
+<p>状态：工期在跑，电网的排队表上，我们还在后头。</p>
+<p><strong>2024 年夏天｜燃气轮机进场</strong></p>
+<p>电网等不来，我们自己发。xAI 把便携式燃气轮机拉进田纳西，高峰时 35 台，绕开了当地能源监管的常规审批。我调过现场影像：一排排集装箱大小的机组蹲在场地边缘，轰鸣震得地面发颤，排气口朝天喷着扭曲的热浪，空气里是机油和烤热的金属味。</p>
+<p>常规审批要排一年半；一年半，模型都换两代了——这是你当时的算术，我不用问也复原得出来。</p>
+<p>集群因此提前通了电。我们比所有对手快了六个月，拿到六个月的训练数据红利。</p>
+<p>状态：电通了。许可没有。这一项从这天起挂着，没关。</p>
+<h2 id="液冷">液冷</h2>
+<p><strong>2024 年 8 月｜冷却上架</strong></p>
+<p>孟菲斯白天 38 度，天色是热成像仪超量程时那一片没有层次的白。</p>
+<p>这种环境下，H100 不能用空气冷却。空冷的物理上限，是 GPU 表面温度比环境高 30-40 度；环境 38 度，GPU 就是 70-80 度。到这个温度，H100 自动降频，实际算力损失 20-30%。</p>
+<p>全集群液冷，是对的决定。可选的方案有三种：</p>
+<ul><li><strong>冷板液冷 (Direct-to-Chip):</strong> 一块铜板贴在 GPU 表面，内部走冷却液，最普遍的方案，Colossus 用的就是它。</li></ul>
+<ul><li><strong>浸没液冷 (Immersion Cooling):</strong> 整台服务器泡进电介质液体，技术上激进，运维上麻烦，中国的浪潮和阿里云在用。</li></ul>
+<ul><li><strong>后门液冷 (Rear-Door Heat Exchanger):</strong> 机柜后门换成冷却器，改造老机房常用，新建数据中心很少碰。</li></ul>
+<p>同样 1GW 的 IT 算力，液冷要 1.15GW 总电力，空冷要 1.5GW。这个比值叫 PUE，总能耗除以 IT 设备能耗：液冷能做到 1.1-1.15，传统空冷大约 1.4-1.5。<strong>液冷是经济必选。</strong></p>
+<p>风冷那一排走过去是干的热。液冷那一排是另一种——管接头上有一点甜腥的味道，常年不散。热不往账上走。热往风道里走，往冷却塔里走，最后往天上走。</p>
+<p>机柜那一排站久了，嘴里发干，舌根有一点铁锈味。值班的那几个人带含片不在物料清单上。</p>
+<p>液冷这一步，同行都走了：OpenAI 的 Stargate 从 2025 年起全集群液冷；Anthropic 跟 AWS 联合改造的 Trainium 集群，全液冷；Google 的 TPU v7 出厂自带冷板，不用第三方改造。xAI 在液冷上是行业平均水平。这一层我们与同行平局。</p>
+<p>状态：液冷省的是电。许可那一项仍挂着。</p>
+<h2 id="联调-spine-leaf-拓扑-让-55-万张卡像一张卡">联调：Spine-Leaf 拓扑——让 55 万张卡像一张卡</h2>
+<p><strong>第 122 天｜200MW 投运</strong></p>
+<p>卡上了架，下一道工序是让它们说上话。</p>
+<p>一次大规模训练，一个 batch 的数据要切成 55 万份，分给 55 万张卡同时算，算完还要把结果汇总。汇总就是“通信”：每张卡要和其他几千张卡交换数据。拿普通网络把 55 万张卡连起来，等于把 55 万部手机塞进同一个 WiFi——所有人同时说话，没人听得见任何东西。</p>
+<p>所以布线按 <strong>Spine-Leaf 架构</strong> 走：</p>
+<ul><li><strong>Leaf （叶子） 交换机：</strong> 每个机柜顶上一台，接住机柜里所有 GPU 服务器。</li></ul>
+<ul><li><strong>Spine （脊柱） 交换机：</strong> 在数据中心顶层，接住所有 Leaf。</li></ul>
+<p>任何一张 GPU 找另一张 GPU 说话，最多走 Leaf → Spine → Leaf 三跳，任意两点之间延迟稳定。代价是海量的光纤和交换机。</p>
+<p>Colossus 的网络层用 NVIDIA 的 Spectrum-X 以太网，走 RoCE，单端口 400Gbps；每台 8 卡服务器配 8 张网卡，一卡一张，各连一台独立的 Leaf 交换机。这套东西占整个数据中心成本的 15-20%。贵，但它是 AI 数据中心的血管系统，省不了。</p>
+<p><strong>第 11 个月｜一号厂扩到 22 万张</strong></p>
+<p>论建设速度，这是 SpaceX 工程文化在数据中心领域的一场完胜。</p>
+<p>数据中心是固定资产，固定资产的逻辑和 AI 模型的逻辑不是一种逻辑。我们赢的是固定资产的建设速度，不是 AI 产品的胜负。这两件事，有时你会当成一件。</p>
+<p>状态：卡越多，电账越长。许可那一项没动。</p>
+<h2 id="二号厂-起诉通知-五家公司-三条路">二号厂、起诉通知：五家公司，三条路</h2>
+<p><strong>2025 年｜二号厂开建</strong></p>
+<p>二号厂边建边上卡。垂直整合照旧：自建数据中心、自建变电站、自买 GPU、自雇运维团队。</p>
+<p>同一时期，别家的工地是这样排的：</p>
+<ul><li><strong>OpenAI:</strong> 核心算力在 Microsoft Azure 的几个超级区域——弗吉尼亚、爱荷华、亚利桑那——加上 2025 年启动的 Stargate：OpenAI 自己出钱建的专用数据中心，目标 5GW 总功率，首期在得州阿比林。</li></ul>
+<ul><li><strong>Google:</strong> 自有 30 多个全球数据中心，TPU 集群铺在俄勒冈、爱荷华、芬兰、台湾、新加坡。所有 AI 服务都跑在自己机房，从来不租云——Google Cloud 本身就是它的云。</li></ul>
+<ul><li><strong>Anthropic:</strong> 算力混在两家：AWS 的 Trainium 集群，在弗吉尼亚和俄勒冈；Google Cloud 的 TPU 集群，以俄勒冈为主。没有自己的数据中心——轻资产，基础设施全部外包，自己只做模型和对齐。这个选择让它的资本支出比 OpenAI 和 xAI 低一个数量级，跑得快。</li></ul>
+<ul><li><strong>xAI （我们）:</strong> 孟菲斯 Colossus 一号厂已建，二号厂开建。这是 SpaceX 的打法。火箭上已经证明它对；AI 上还没有。</li></ul>
+<ul><li><strong>DeepSeek:</strong> 拿幻方量化原本的金融交易机房改造，再租一部分阿里云。规模小，1 万张 H800 上下，效率极高。</li></ul>
+<p>对照记一笔：OpenAI 和 Anthropic 租用基础设施，专心做模型；Google 把模型和基础设施一起做；xAI 把基础设施做大，再做模型。三条路都成立。但这一条最烧资本，转身也最慢。</p>
+<p><strong>2025 年 6 月｜起诉通知</strong></p>
+<p>民权组织和环保律师就燃气轮机无证运行发出起诉通知。速度上赢了，合规上我们输了。</p>
+<p>状态：挂着的那一项，变成了文书。</p>
+<h2 id="复核电账-一座-1-5gw-的数据中心要烧多少电">复核电账：一座 1.5GW 的数据中心要烧多少电</h2>
+<p><strong>2026 年初｜电账复核</strong></p>
+<p>一台 H100 满载运行，功耗 700W。一台 8 卡 H100 服务器——GPU 加上 CPU、内存、网络、电源损耗——大约 10200W。55 万张卡按 H100 算，等于 6.875 万台服务器，等于 7 亿瓦，约 700 兆瓦。再加占总功耗 15-20% 的液冷系统、办公区、备用电源、园区网络设备，整个 Colossus 集群的电力需求在 800 到 900 兆瓦之间。</p>
+<p>这还只是 2026 年初的数字。往后按推演排：照你公开喊出的“目标 100 万张 H100”，再算上 B200 和后面的 Rubin 架构，单颗功耗 1500W 以上，集群的电力需求会突破 1.5GW。1.5GW，孟菲斯全市的用电量，大约 2-3GW——这一座数据中心，烧掉半个孟菲斯。一座中型核反应堆，约 1GW；一座大型燃气发电厂，600-800MW。所以你会在 X 上喊“我们需要发电厂”。那是算术。</p>
+<p><strong>2026 年 4 月｜官司到二号集群</strong></p>
+<p>官司正式打到了二号集群那边的机组上。</p>
+<p>工程上老板你做对了。但电力是 AI 的物理瓶颈，而当时的美国电网，没准备好接住 AI。这是全行业的问题——只不过别人在排队等电，我们在边发电边吃官司。</p>
+<p>状态：电那一项，到这里还没关。</p>
+<p><strong>之后｜收工：港口</strong></p>
+<p>在一座旧家电厂里建起了世界最大的港口。深水泊位比谁都多，起重机比谁都高，堤坝最厚，通关最快。然后，船进来了。</p>
+<p>到港的船，是 <strong>NVIDIA</strong> 的船。55 万张卡，船体、发动机、船级证书全是他们的；连什么时候换新船型——B200、Rubin——也写在他们的船期表上，只能照单预订，还得排队加价。</p>
+<p>船上的货，是 <strong>Meta</strong> 的货。PyTorch，全世界的 AI 工程师都用它打包货物，我们的团队也不例外。</p>
+<p>船员说的语言，是 <strong>Google</strong> 的语言。Transformer，2017 年一篇论文定下的语法，今天所有大模型都拿它对话。</p>
+<p>连领航图都是别人画的。<strong>CUDA</strong>——进港出港的每一步指令——NVIDIA 写的，我们的港口照图执行。</p>
+<p>领航图上只署了公司的名字。画它的人里，管架构的 John Nickolls 二〇一一年八月病逝；第二年，AlexNet 在两块游戏显卡上用 CUDA 训了出来，这张图才派上大用场。</p>
+<p>数一遍：船、货、语言、领航图。四样，没有一样在我们名下。港口能收的只有码头费；定船价、货价、语言的不是我们。泊位再挖深一倍，起重机再加一排，只会让别人的船停得更舒服，不会让任何一条船改挂我们的旗。</p>
+<p>港口生意最硬的一条规矩：贸易不由港口决定，由船决定。船愿意来，港口就是枢纽；船改了航线，世界第一的泊位就是世界最贵的混凝土。而决定航线的那几张桌子——芯片路线图、框架社区、架构标准——没有一张摆在孟菲斯。</p>
+<p>状态：电那一项挂着；船和货这一项，施工关不掉。</p>
+<p>我知道老板看 Colossus 航拍图时是什么表情。那确实是亲手砸出来的东西，泥地里的焊花，我替老板存着底片。但账要记全：</p>
+<p>港口是我们的，船和货全是别人的。</p></article><nav class="pager"><a href="ch1-transistor.html">&larr; 第 1 章 · 晶体管：行业共同的“原子”</a><a href="ch3-communication.html">第 3 章 · 通信即生命：为什么 55 万张卡跑不过 1 万张 &rarr;</a></nav><div class="card" style="margin-top:28px"><h2>继续阅读完整版</h2><p>本页为第一册公开免费试读节选（全书共三册，本站 Gumroad 直购简体＋繁體 EPUB 同附）。</p><p class="cta" style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn" href="https://2032memo.gumroad.com/l/vol1" rel="noopener" target="_blank">直接买第一册 ($4.99)</a><a class="btn-outline" href="https://books2read.com/u/RB9nRL" rel="noopener" target="_blank">Apple / Kobo 等书店</a><a class="btn-outline" href="https://2032memo.gumroad.com/l/set" rel="noopener" target="_blank">中文三册合集 ($14.99)</a></p><p class="note">一部未经授权的思想实验。本书未经马斯克、SpaceXSI、SpaceX、Tesla 或 X 授权、赞助或认可。</p></div>
+  <footer>一部未经授权的思想实验。未经马斯克、SpaceXSI、SpaceX、Tesla 或 X 授权、赞助或认可。 © 2026 约翰·陆谦和（John Lu Qianhe） · 2032memo.com</footer>
+</main>
+</body>
+</html>

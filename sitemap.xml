@@ -1,5 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://2032memo.com/</loc><lastmod>2026-11-26</lastmod></url>
-  <url><loc>https://2032memo.com/books.html</loc><lastmod>2026-11-26</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://2032memo.com/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/books.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/books.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/books.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/books.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/books.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/books.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/books.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/books.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/read/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/read/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/read/prologue.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/prologue.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/prologue.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/prologue.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/read/prologue.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/prologue.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/prologue.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/prologue.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/read/ch1-transistor.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch1-transistor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch1-transistor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch1-transistor.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/read/ch1-transistor.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch1-transistor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch1-transistor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch1-transistor.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/read/ch2-datacenter.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch2-datacenter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch2-datacenter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch2-datacenter.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/read/ch2-datacenter.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch2-datacenter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch2-datacenter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch2-datacenter.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/read/ch3-communication.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch3-communication.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch3-communication.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch3-communication.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/read/ch3-communication.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch3-communication.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch3-communication.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch3-communication.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/earth-one-second.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/earth-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/earth-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/earth-one-second.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/earth-one-second.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/earth-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/earth-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/earth-one-second.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/lifespan-23-billion-seconds.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/lifespan-23-billion-seconds.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/lifespan-23-billion-seconds.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/human-time-budget.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/human-time-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/human-time-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/human-time-budget.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/human-time-budget.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/human-time-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/human-time-budget.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/human-time-budget.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/food-and-hunger.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/food-and-hunger.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/food-and-hunger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/food-and-hunger.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/food-and-hunger.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/food-and-hunger.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/food-and-hunger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/food-and-hunger.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/energy-and-electricity.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/energy-and-electricity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/energy-and-electricity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/energy-and-electricity.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/energy-and-electricity.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/energy-and-electricity.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/energy-and-electricity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/energy-and-electricity.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/military-vs-research.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/military-vs-research.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/military-vs-research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/military-vs-research.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/military-vs-research.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/military-vs-research.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/military-vs-research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/military-vs-research.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/ai-tokens-data-and-memory.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/ai-tokens-data-and-memory.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/ai-tokens-data-and-memory.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/civilization-in-one-second.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/civilization-in-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/civilization-in-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/civilization-in-one-second.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/civilization-in-one-second.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/civilization-in-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/civilization-in-one-second.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/civilization-in-one-second.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/ledger/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/ledger/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/ledger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/ledger/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/ledger/"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/predictions.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/predictions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/predictions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/predictions.html"/>
+  </url>
+  <url>
+    <loc>https://2032memo.com/en/predictions.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/predictions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2032memo.com/en/predictions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/predictions.html"/>
+  </url>
 </urlset>

@@ -1,0 +1,40 @@
+# The Grok Memo (2032) / SpaceX-AI 移交的 Grok 备忘录 · 马斯克的烦恼 · 2032 Optimus 的大脑
+
+> Official site and open empirical data archive for the three-volume work by John Lu Qianhe (约翰·陆谦和), published November 2026.
+> Note: An independent, unauthorized thought experiment and empirical ledger; not authorized, sponsored, or endorsed by Elon Musk, SpaceXSI, SpaceX, Tesla, or X.
+
+## Core Entry Points
+- [English Homepage](https://2032memo.com/en/): Overview, store links, 18-language free samples, and 20% verification/falsification pledge.
+- [中文首页](https://2032memo.com/): 中文原版三册购书、18语免费试读、总账公开数据与挑战提交入口。
+- [Bibliographic Catalog & ISBNs](https://2032memo.com/en/books.html): Official publisher metadata, covers, ISBN-13s, and Open Library IDs for all 6 ebooks and 3 Chinese paperbacks.
+
+## Editions & ISBN-13
+- English Vol. 1 (Ebook): ISBN `9798237535228` · [Direct](https://2032memo.gumroad.com/l/en-vol1) · [Stores](https://books2read.com/u/YRBAjo)
+- English Vol. 2 (Ebook): ISBN `9798237327403` · [Direct](https://2032memo.gumroad.com/l/en-vol2) · [Stores](https://books2read.com/u/lKZEeq)
+- English Vol. 3 — The Master Ledger of Human Civilization (Ebook): ISBN `9798237936292` · [Direct](https://2032memo.gumroad.com/l/en-vol3) · [Stores](https://books2read.com/u/aPNGz8)
+- Chinese Vol. 1: Ebook ISBN `9798235020610` / Paperback ISBN `978-0-557-54881-1` · [Direct](https://2032memo.gumroad.com/l/vol1) · [Stores](https://books2read.com/u/RB9nRL)
+- Chinese Vol. 2: Ebook ISBN `9798237839784` / Paperback ISBN `978-0-557-54800-2` · [Direct](https://2032memo.gumroad.com/l/vol2) · [Stores](https://books2read.com/u/dK5ngw)
+- Chinese Vol. 3 — 人类文明总账: Ebook ISBN `9798237343441` / Paperback ISBN `978-0-557-54792-0` · [Direct](https://2032memo.gumroad.com/l/vol3) · [Stores](https://books2read.com/u/1gkYzv)
+
+## Free Online Sample Chapters (Volume One)
+- [Prologue · Memphis Cooling Towers, May 6, 2026 & 2.3 Billion Seconds](https://2032memo.com/en/read/prologue.html) | [序章 · 孟菲斯冷却塔散尽的水汽与二十三亿秒的孤本](https://2032memo.com/read/prologue.html)
+- [Chapter 1 · The Transistor: The Industry's Shared “Atom” (1947 Bell Labs to GPUs)](https://2032memo.com/en/read/ch1-transistor.html) | [第 1 章 · 晶体管：行业共同的“原子”（从 1947 贝尔实验室到 GPU 硬件账本）](https://2032memo.com/read/ch1-transistor.html)
+- [Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology & 1.5 GW Power Bill](https://2032memo.com/en/read/ch2-datacenter.html) | [第 2 章 · 数据中心：港口与货单（液冷、55 万张卡拓扑与 1.5GW 电账）](https://2032memo.com/read/ch2-datacenter.html)
+- [Chapter 3 · Communication Is Life: Why 550,000 GPUs Lose to 10,000](https://2032memo.com/en/read/ch3-communication.html) | [第 3 章 · 通信即生命：为什么 55 万张卡跑不过 1 万张](https://2032memo.com/read/ch3-communication.html)
+
+## Open Data Sections from Volume Three: The Master Ledger of Human Civilization
+- [Master Ledger Overview](https://2032memo.com/en/ledger/) | [人类文明总账公开目录](https://2032memo.com/ledger/)
+- [The Earth in One Second & Bookkeeping Rules (Sections 0–1)](https://2032memo.com/en/ledger/earth-one-second.html) | [一秒钟的地球与记账规则（第 0–1 节）](https://2032memo.com/ledger/earth-one-second.html)
+- [Lifespan (32 to 73.3 Years) & How 2.3 Billion Seconds Are Spent (Sections 8–9)](https://2032memo.com/en/ledger/lifespan-23-billion-seconds.html) | [寿命不是一个数 ＆ 一生的秒表：二十三亿秒怎么花（第 8–9 节）](https://2032memo.com/ledger/lifespan-23-billion-seconds.html)
+- [Humanity's Time Pool: Where 195.9 Billion Person-Hours a Day Go (Sections 10 & 12)](https://2032memo.com/en/ledger/human-time-budget.html) | [八十亿人的时间池：每天 1,959 亿人时的去向（第 10、12 节）](https://2032memo.com/ledger/human-time-budget.html)
+- [What One Person Eats in a Day & Global Hunger vs. Obesity (Sections 27 & 32)](https://2032memo.com/en/ledger/food-and-hunger.html) | [一个人每天吃进什么 ＆ 全球饥饿、营养不良与肥胖（第 27、32 节）](https://2032memo.com/ledger/food-and-hunger.html)
+- [Primary Energy Burned per Second & Global Electricity (Sections 54–55)](https://2032memo.com/en/ledger/energy-and-electricity.html) | [一次能源每秒燃烧多少 ＆ 电：现代生活的血（第 54–55 节）](https://2032memo.com/ledger/energy-and-electricity.html)
+- [$2.89T Military Spending vs. Global R&D & Research Share of Human Time (Sections 69, 90–91)](https://2032memo.com/en/ledger/military-vs-research.html) | [税与 2.89 万亿美元军费 vs 科研人员与研究时间占比（第 69、90–91 节）](https://2032memo.com/ledger/military-vs-research.html)
+- [Global Data per Second, AI Tokens, All Human Writing & 8 Billion Memories (Sections 105–106, 119H–119I)](https://2032memo.com/en/ledger/ai-tokens-data-and-memory.html) | [每秒字节、数据中心与 AI Token、人类全部文字与八十亿人记忆（第 105–106、119H–119I 节）](https://2032memo.com/ledger/ai-tokens-data-and-memory.html)
+- [Civilization in One Second & Back to One Person's Day (Sections 120–121)](https://2032memo.com/en/ledger/civilization-in-one-second.html) | [总账收束：一秒钟里的文明与回到一个人的一天（第 120–121 节）](https://2032memo.com/ledger/civilization-in-one-second.html)
+
+## Pre-Registered Falsifiable Physics Predictions (P1–P6.1)
+- [6.5 Falsifiable Predictions & 21.8-μg Planck Gate (EN)](https://2032memo.com/en/predictions.html) | [六条半可证伪物理预言（中文）](https://2032memo.com/predictions.html)
+- OSF Pre-registration: https://doi.org/10.17605/OSF.IO/SPRZJ
+- Zenodo Paper (v7): https://doi.org/10.5281/zenodo.24189100
+- Code & Verdict Log: https://github.com/Han-yl-1/middle-rung-law

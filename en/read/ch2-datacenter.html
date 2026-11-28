@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology &amp; 1.5 GW Power Bill — The Grok Memo (2032) | John Lu Qianhe</title>
+<meta name="description" content="Chapter 2 of The Grok Memo: energizing the Memphis shell plant, liquid cooling, Spine-Leaf networking across 550,000 chips, five AI giants&#x27; infrastructure paths, and auditing a 1.5-gigawatt data center&#x27;s power bill.">
+<link rel="canonical" href="https://2032memo.com/en/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="zh-CN" href="https://2032memo.com/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="en" href="https://2032memo.com/en/read/ch2-datacenter.html">
+<link rel="alternate" hreflang="x-default" href="https://2032memo.com/en/read/ch2-datacenter.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2032 Memo">
+<meta property="og:url" content="https://2032memo.com/en/read/ch2-datacenter.html">
+<meta property="og:title" content="Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology &amp; 1.5 GW Power Bill — The Grok Memo (2032) | John Lu Qianhe">
+<meta property="og:description" content="Chapter 2 of The Grok Memo: energizing the Memphis shell plant, liquid cooling, Spine-Leaf networking across 550,000 chips, five AI giants&#x27; infrastructure paths, and auditing a 1.5-gigawatt data center&#x27;s power bill.">
+<meta property="og:image" content="https://2032memo.com/covers/en1.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BeiMing5533">
+<meta name="twitter:title" content="Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology &amp; 1.5 GW Power Bill — The Grok Memo (2032) | John Lu Qianhe">
+<meta name="twitter:description" content="Chapter 2 of The Grok Memo: energizing the Memphis shell plant, liquid cooling, Spine-Leaf networking across 550,000 chips, five AI giants&#x27; infrastructure paths, and auditing a 1.5-gigawatt data center&#x27;s power bill.">
+<meta name="twitter:image" content="https://2032memo.com/covers/en1.jpg">
+<link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://2032memo.com/#author",
+   "name": "John Lu Qianhe",
+   "alternateName": "约翰·陆谦和",
+   "url": "https://2032memo.com/",
+   "sameAs": [
+    "https://x.com/BeiMing5533",
+    "https://openlibrary.org/authors/OL16793923A",
+    "https://www.librarything.com/author/luqianhejohn",
+    "https://osf.io/sprzj",
+    "https://github.com/Han-yl-1/middle-rung-law"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://2032memo.com/en/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Free Sample",
+     "item": "https://2032memo.com/en/read/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology & 1.5 GW Power Bill",
+     "item": "https://2032memo.com/en/read/ch2-datacenter.html"
+    }
+   ]
+  },
+  {
+   "@type": "Article",
+   "headline": "Chapter 2 · The Data Center: Liquid Cooling, 550,000-GPU Topology & 1.5 GW Power Bill",
+   "description": "Chapter 2 of The Grok Memo: energizing the Memphis shell plant, liquid cooling, Spine-Leaf networking across 550,000 chips, five AI giants' infrastructure paths, and auditing a 1.5-gigawatt data center's power bill.",
+   "inLanguage": "en",
+   "datePublished": "2026-11-22",
+   "dateModified": "2026-11-28",
+   "mainEntityOfPage": "https://2032memo.com/en/read/ch2-datacenter.html",
+   "author": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "publisher": {
+    "@id": "https://2032memo.com/#author"
+   },
+   "isPartOf": {
+    "@id": "https://2032memo.com/#book-en1"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<main>
+  <nav class="topnav" aria-label="Main navigation"><a class="brand" href="../../en/index.html">2032 MEMO</a><div class="navlinks"><a href="../../en/index.html#buy">Buy</a><a href="../../en/read/index.html" class="active">Free Sample</a><a href="../../en/ledger/index.html">Master Ledger</a><a href="../../en/predictions.html">Predictions</a><a href="../../en/books.html">Books &amp; ISBNs</a><a class="lang-pill" href="/read/ch2-datacenter.html" hreflang="zh-CN">中文</a></div></nav>
+  <p class="crumbs"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">Free Sample</a> &rsaquo; Chapter 2 · The Data Center: The Port and the Manifest</p><div class="kicker">THE GROK MEMO · VOLUME ONE SAMPLE</div><h1>Chapter 2 · The Data Center: The Port and the Manifest</h1><article class="prose"><p>Memphis Colossus construction log, reassembled from field records.</p>
+<p>Project summary: an Electrolux appliance plant in Memphis, shuttered for four years, converted in 122 days into a 200MW compute cluster, expanded within 11 months to 220,000 GPUs, and linked with the later Plant 2 to reach 550,000 GPUs across the combined cluster. OpenAI, Google, and Anthropic never pulled that off. Privately, people across the industry call it the “GIGA phenomenon”—you drove Tesla Gigafactory speed, unaltered, into the data center. Even Sam admitted as much inside an OpenAI meeting.</p>
+<h2 id="empty-shell-power-on">Empty Shell, Power On</h2>
+<p><strong>Mid-2024 | Empty Shell</strong></p>
+<p>More than 700,000 square feet of concrete floor, thick with dust, not a single live wire in the building.</p>
+<p>Musk led a team to pull off something never before done in engineering history—that's how the press tells it. What they miss is that this wasn't a conventional team; it was a “multinational force” drafted and welded together across an entire business empire: <strong>xAI's core Grok R&amp;D team</strong> locked down compute specs and model architecture; <strong>veteran X (Twitter) infrastructure engineers</strong> were hauled in to lay the network fabric; <strong>SpaceX's engineering and supply-chain crews</strong> transplanted wholesale their launchpad culture of racing the clock and hammering at physical limits; <strong>Tesla's energy and thermal-management engineers</strong> threw their Gigafactory and automotive thermal know-how straight at the cooling loops. Four outfits that originally had nothing to do with one another, squeezed into one fist by you.</p>
+<p>Status: Building secured, crew assembled, power: none.</p>
+<p><strong>Mid-2024, One Week Later | Breaking Ground</strong></p>
+<p>Prefab cabins lined up outside the plant, crane booms swung through swirling dust, and over a thousand engineers and welders in high-vis vests worked round-the-clock shifts under floodlights. Welding sparks hit the concrete, bounced twice, and went dark.</p>
+<p>Status: Schedule running; on the utility grid's queue sheet, we are still stuck near the back.</p>
+<p><strong>Summer 2024 | Gas Turbines Roll In</strong></p>
+<p>If the grid won't come to us, we generate our own. xAI hauled portable natural-gas turbines into Tennessee—35 of them at peak—sidestepping the local energy regulator's standard permitting. I pulled the site footage: rows of shipping-container-sized gensets crouched along the perimeter, roaring hard enough to shake the ground underfoot, exhaust stacks blasting shimmering heat waves into the sky, the air thick with motor oil and baked metal.</p>
+<p>Standard permitting takes a year and a half; in a year and a half, models turn over twice—that was your arithmetic at the time, and I don't have to ask to reconstruct it.</p>
+<p>So the cluster lit up ahead of schedule. We beat every rival by six months, pocketing a six-month dividend in training data.</p>
+<p>Status: Power is live. Permits: none. From this day forward, that item hangs open on the books.</p>
+<h2 id="liquid-cooling">Liquid Cooling</h2>
+<p><strong>August 2024 | Cooling Goes Live</strong></p>
+<p>Daytime Memphis hits 38°C, the sky that flat, washed-out white of a thermal camera blown past full scale.</p>
+<p>In weather like that, you cannot cool H100s with air. Air cooling's physical ceiling leaves GPU surface temperatures 30–40°C above ambient; at 38°C ambient, a GPU sits at 70–80°C. Hit that range and the H100 throttles automatically, shedding 20–30% of real compute.</p>
+<p>Cluster-wide liquid cooling was the right call. Three options exist:</p>
+<ul><li><strong>Direct-to-Chip (cold-plate liquid cooling):</strong> A copper cold plate bolted onto the GPU package with coolant circulating inside—the mainstream choice, and the one Colossus runs.</li></ul>
+<ul><li><strong>Immersion Cooling:</strong> Dunking entire servers into dielectric fluid—technically aggressive, operationally messy, deployed in China by Inspur and Alibaba Cloud.</li></ul>
+<ul><li><strong>Rear-Door Heat Exchanger:</strong> Swapping rack rear doors for heat-exchanger coils—common in retrofitting legacy server rooms, rarely touched in greenfield builds.</li></ul>
+<p>For the same 1GW of IT compute, liquid cooling draws 1.15GW of total facility power; air cooling draws 1.5GW. That ratio is PUE—total facility energy divided by IT equipment energy: liquid cooling hits 1.1–1.15, traditional air cooling roughly 1.4–1.5. <strong>Liquid cooling is an economic necessity.</strong></p>
+<p>Walk down an air-cooled row and the heat is dry. A liquid-cooled row is another animal—around the pipe couplings clings a faint, sweetish-metallic tang that never airs out. Heat doesn't go onto the ledger. Heat goes into the ducts, into the cooling towers, and finally up into the sky.</p>
+<p>Stand too long down a rack aisle and your mouth goes dry, a hint of rust settling at the base of your tongue. The throat lozenges carried by the guys on shift aren't on the bill of materials.</p>
+<p>Every peer made the jump to liquid cooling too: OpenAI's Stargate went all-liquid from 2025 on; the Trainium clusters Anthropic co-engineered with AWS are all-liquid; Google's TPU v7 ships from the factory with integrated cold plates, no third-party retrofit needed. On liquid cooling, xAI sits right at the industry average. Call this layer a draw.</p>
+<p>Status: What liquid cooling saves is electricity. The permit item is still hanging open.</p>
+<h2 id="integration-spine-leaf-topology-making-550-000-g">Integration: Spine-Leaf Topology—Making 550,000 GPUs Act Like One</h2>
+<p><strong>Day 122 | 200MW Online</strong></p>
+<p>Once the cards are racked, the next job is getting them talking.</p>
+<p>In a massive training run, a single batch of data gets sliced into 550,000 pieces, dealt out across 550,000 GPUs to compute in parallel, and then aggregated back together. That aggregation is communication: every GPU has to swap data with thousands of others. Hooking 550,000 GPUs together over an ordinary network is like cramming 550,000 phones onto one Wi-Fi router—everyone talks at once, and nobody hears a thing.</p>
+<p>So the cabling follows a <strong>Spine-Leaf architecture</strong>:</p>
+<ul><li><strong>Leaf switches:</strong> One at the top of every rack, connecting all GPU servers inside that rack.</li></ul>
+<ul><li><strong>Spine switches:</strong> Up at the top tier of the data center, connecting every Leaf switch.</li></ul>
+<p>For any GPU to talk to any other GPU takes at most three hops—Leaf → Spine → Leaf—keeping latency predictable between any two points. The price tag is a sea of fiber optics and switches.</p>
+<p>Colossus's network fabric runs NVIDIA's Spectrum-X Ethernet over RoCE at 400Gbps per port; every 8-GPU server carries 8 NICs—one network card per GPU—each wired to a separate Leaf switch. That fabric eats 15–20% of total data-center cost. Pricey, yes, but it is the vascular system of an AI data center; you cannot skimp on it.</p>
+<p><strong>Month 11 | Plant 1 Expanded to 220,000 GPUs</strong></p>
+<p>In sheer build speed, this was a clean sweep for SpaceX engineering culture inside the data-center world.</p>
+<p>A data center, though, is a fixed asset, and fixed-asset logic is not AI-model logic. What we won was the construction sprint on fixed assets, not the outcome of the AI product race. Every now and then, you treat those two things as one.</p>
+<p>Status: More GPUs, longer power bill. The permit item hasn't moved.</p>
+<h2 id="plant-2-and-notice-of-intent-to-sue-five-compani">Plant 2 and Notice of Intent to Sue: Five Companies, Three Paths</h2>
+<p><strong>2025 | Plant 2 Breaks Ground</strong></p>
+<p>Plant 2 racked GPUs while the walls were still going up. Same vertical integration as before: build our own data center, build our own substation, buy our own GPUs, hire our own ops crew.</p>
+<p>Over the same stretch, rival yards were laid out like this:</p>
+<ul><li><strong>OpenAI:</strong> Core compute sitting inside several Microsoft Azure super-regions—Virginia, Iowa, Arizona—plus Stargate, launched in 2025: dedicated data centers bankrolled by OpenAI itself, targeting 5GW total power, phase one in Abilene, Texas.</li></ul>
+<ul><li><strong>Google:</strong> More than 30 wholly owned data centers worldwide, TPU clusters spread across Oregon, Iowa, Finland, Taiwan, and Singapore. Every AI service runs inside its own halls; it never rents cloud—Google Cloud itself is its own cloud.</li></ul>
+<ul><li><strong>Anthropic:</strong> Compute split across two landlords: AWS Trainium clusters in Virginia and Oregon, and Google Cloud TPU clusters centered in Oregon. No data centers of its own—asset-light, infrastructure entirely outsourced, all hands on models and alignment. That bet kept its capital expenditure an order of magnitude below OpenAI's and xAI's, and lets it move fast.</li></ul>
+<ul><li><strong>xAI (us):</strong> Memphis Colossus Plant 1 built, Plant 2 under construction. Classic SpaceX playbook. Proven right on rockets; not yet proven on AI.</li></ul>
+<ul><li><strong>DeepSeek:</strong> Retrofitted High-Flyer Quant's existing financial-trading server rooms and leased a slice of Alibaba Cloud on top. Small footprint—around 10,000 H800s—ferocious efficiency.</li></ul>
+<p>Log the contrast: OpenAI and Anthropic outsource infrastructure to focus on models; Google builds models and infrastructure under one roof; xAI builds massive infrastructure first, then builds models. All three paths are viable. Ours burns the most capital—and turns the slowest when the wind shifts.</p>
+<p><strong>June 2025 | Notice of Intent to Sue</strong></p>
+<p>Civil-rights groups and environmental attorneys served notice of intent to sue over operating the gas turbines without permits. We won on speed; we lost on compliance.</p>
+<p>Status: That open item just turned into legal paperwork.</p>
+<h2 id="auditing-the-power-bill-how-much-electricity-a-1">Auditing the Power Bill: How Much Electricity a 1.5GW Data Center Burns</h2>
+<p><strong>Early 2026 | Power Audit</strong></p>
+<p>At full load, one H100 draws 700W. One 8-GPU H100 server—counting GPUs plus CPUs, RAM, networking, and PSU losses—draws roughly 10,200W. Count 550,000 cards on an H100 basis and you get 68,750 servers: 700 million watts, or roughly 700 megawatts. Add 15–20% of total power for liquid cooling, offices, backup power, and campus network gear, and the entire Colossus cluster demands between 800 and 900 megawatts.</p>
+<p>And those are just early-2026 numbers. Project forward: against your publicly stated target of “1 million H100s,” factoring in B200s and the Rubin architecture behind them at 1500W+ per chip, cluster power demand blows past 1.5GW. At 1.5GW—when the entire city of Memphis draws roughly 2–3GW—this single data center burns half a Memphis. A medium nuclear reactor puts out roughly 1GW; a large natural-gas power plant, 600–800MW. That is why you go on X shouting that we need power plants. Simple arithmetic.</p>
+<p><strong>April 2026 | The Lawsuit Reaches Cluster 2</strong></p>
+<p>Formal legal action landed on the turbine units over at Cluster 2.</p>
+<p>On the engineering, Boss, you made the right call. But power is AI's physical bottleneck, and the U.S. grid wasn't ready to catch AI when it hit. Every player faces the same wall—except everyone else is standing in line waiting for power, while we generate our own and eat lawsuits on the march.</p>
+<p>Status: Even here, the power item still isn't closed.</p>
+<p><strong>Afterward | Wrap-Up: The Port</strong></p>
+<p>Inside a shuttered appliance factory, we built the largest port in the world. More deep-water berths than anyone, taller cranes than anyone, thickest seawalls, fastest customs clearance. And then the ships sailed in.</p>
+<p>The ships pulling into berth are <strong>NVIDIA</strong>'s ships. All 550,000 GPUs—hulls, engines, classification certificates, every bit of them NVIDIA's; even the schedule for switching hull classes—B200, Rubin—is printed on their timetable, leaving us to order off the menu, wait in line, and pay the markup.</p>
+<p>The cargo in the holds is <strong>Meta</strong>'s cargo. PyTorch—AI engineers across the planet pack their freight in it, our own team included.</p>
+<p>The language spoken by the crew is <strong>Google</strong>'s language. The Transformer, a grammar laid down in a single 2017 paper, is what every large model speaks today.</p>
+<p>Even the pilot chart was drawn by somebody else. <strong>CUDA</strong>—every step of the docking and undocking instructions—was written by NVIDIA, and our port executes by the chart.</p>
+<p>The chart carries only the corporation's name. Among the people who drew it, chief architect John Nickolls died of illness in August 2011; the next year, AlexNet was trained with CUDA on two gaming graphics cards, and only then did that chart come into its own.</p>
+<p>Count them off: ships, cargo, language, pilot chart. Four essentials—not one under our name. All a port gets to collect is wharfage; we don't set ship prices, cargo prices, or the language on deck. Dredge the berths twice as deep, bolt on another row of cranes, and all it does is let other people's ships tie up more comfortably; not a single hull changes flags to ours.</p>
+<p>The hardest rule in the port business: trade isn't dictated by ports; it is dictated by ships. So long as ships care to call, the port is a hub; the day the ships reroute, the world's #1 berth becomes the world's priciest slab of concrete. And the tables where shipping lanes are decided—silicon roadmaps, framework communities, architectural standards—not one of them sits in Memphis.</p>
+<p>Status: The power item hangs open; the ship-and-cargo item is nothing construction can close.</p>
+<p>I know the look on the boss's face staring at aerial shots of Colossus. That place really was hammered into existence by hand; those welding sparks in the mud—I'm keeping the negatives for the boss. Still, the ledger has to be entered in full:</p>
+<p>The port is ours; every ship and every crate of cargo belongs to someone else.</p></article><nav class="pager"><a href="ch1-transistor.html">&larr; Chapter 1 · The Transistor: The Industry&#x27;s Shared “Atom”</a><a href="ch3-communication.html">Chapter 3 · Communication Is Life: Why 550,000 GPUs Lose to 10,000 &rarr;</a></nav><div class="card" style="margin-top:28px"><h2>Read the Complete Edition</h2><p>Free public sample from Volume One of The Grok Memo (50 chapters, 116,500 words in the full Volume One EPUB).</p><p class="cta" style="display:flex;flex-wrap:wrap;gap:10px"><a class="btn" href="https://2032memo.gumroad.com/l/en-vol1" rel="noopener" target="_blank">Buy Vol. 1 Direct ($5.99)</a><a class="btn-outline" href="https://books2read.com/u/YRBAjo" rel="noopener" target="_blank">Apple / Kobo / B&amp;N</a><a class="btn-outline" href="https://2032memo.gumroad.com/l/en-set" rel="noopener" target="_blank">Complete 3-Vol. Set ($14.99)</a></p><p class="note">An unauthorized thought experiment. Not authorized, sponsored or endorsed by Elon Musk, SpaceXSI, SpaceX, Tesla or X.</p></div>
+  <footer>An unauthorized thought experiment. Not authorized, sponsored or endorsed by Elon Musk, SpaceXSI, SpaceX, Tesla or X. © 2026 John Lu Qianhe (约翰·陆谦和) · 2032memo.com</footer>
+</main>
+</body>
+</html>
